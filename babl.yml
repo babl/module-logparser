@@ -1,0 +1,7 @@
+id: babl/qa-logparser
+cmd: /bin/babl-logparser -kb=$BABL_KAFKA_BROKERS
+mem: 32
+build: false
+deploy: false
+env:
+  SERVICE_TAGS: web
